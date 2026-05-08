@@ -2,12 +2,12 @@
   "bilder": [
     {
       "bild": "magick.jpg",
-      "titel": "1",
-      "technik": "oil on canvas",
-      "jahr": "1111",
-      "groesse": "1×1 cm",
+      "titel": "dfgfdg",
+      "technik": "acrylic on canvas",
+      "jahr": "22222",
+      "groesse": "22222×22222 cm",
       "farbe": "#d4a020",
-      "sold": false
+      "sold": true
     },
     {
       "bild": "Fiddle leaf fig.jpg",
@@ -376,6 +376,15 @@
       "jahr": "2024",
       "groesse": "50×70 cm",
       "farbe": "#607080",
+      "sold": false
+    },
+    {
+      "bild": "katze.png",
+      "titel": "Katze",
+      "technik": "acrylic on canvas",
+      "jahr": "2026",
+      "groesse": "",
+      "farbe": "#888888",
       "sold": false
     }
   ]
