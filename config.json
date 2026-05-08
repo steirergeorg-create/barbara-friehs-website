@@ -368,15 +368,6 @@
       "groesse": "50×70 cm",
       "farbe": "#607080",
       "sold": false
-    },
-    {
-      "bild": "cat in a box.jpg",
-      "titel": "Cat In A Box",
-      "technik": "acrylic on canvas",
-      "jahr": "2020",
-      "groesse": "30×40 cm",
-      "farbe": "#888888",
-      "sold": false
     }
   ],
   "titelbild": "magick.jpg"
