@@ -127,15 +127,6 @@
       "sold": false
     },
     {
-      "bild": "diving on the Seychelles.jpg",
-      "titel": "Diving on the Seychelles",
-      "technik": "oil on canvas",
-      "jahr": "2026",
-      "groesse": "60×80 cm",
-      "farbe": "#2070a0",
-      "sold": false
-    },
-    {
       "bild": "fluffy cat.jpg",
       "titel": "Fluffy Cat",
       "technik": "acrylic on canvas",
@@ -322,6 +313,15 @@
       "jahr": "2026",
       "groesse": "30×40 cm",
       "farbe": "#b08060",
+      "sold": false
+    },
+    {
+      "bild": "diving on the Seychelles.jpg",
+      "titel": "Diving on the Seychelles",
+      "technik": "oil on canvas",
+      "jahr": "2026",
+      "groesse": "60×80 cm",
+      "farbe": "#2070a0",
       "sold": false
     },
     {
