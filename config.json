@@ -377,15 +377,6 @@
       "groesse": "50×70 cm",
       "farbe": "#607080",
       "sold": false
-    },
-    {
-      "bild": "katze.png",
-      "titel": "hund",
-      "technik": "mixed media",
-      "jahr": "1000",
-      "groesse": "1000×1000 cm",
-      "farbe": "#888888",
-      "sold": true
     }
   ]
 }
