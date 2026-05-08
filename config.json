@@ -1,22 +1,13 @@
 {
   "bilder": [
     {
-      "bild": "Portrait Foto.jpg",
-      "titel": "neu",
-      "technik": "watercolour on paper",
-      "jahr": "2022",
-      "groesse": "45ÃÆÃ¢â¬â67 cm",
-      "farbe": "#888888",
-      "sold": false
-    },
-    {
       "bild": "magick.jpg",
-      "titel": "Mag",
-      "technik": "mixed media",
-      "jahr": "1990",
-      "groesse": "1×9 cm",
-      "farbe": "#888888",
-      "sold": true
+      "titel": "Magick",
+      "technik": "oil on canvas",
+      "jahr": "2024",
+      "groesse": "120×80 cm",
+      "farbe": "#d4a020",
+      "sold": false
     },
     {
       "bild": "Fiddle leaf fig.jpg",
@@ -24,7 +15,7 @@
       "technik": "oil on canvas",
       "jahr": "2026",
       "groesse": "40×40 cm",
-      "farbe": "#888888",
+      "farbe": "#4a7040",
       "sold": false
     },
     {
@@ -33,7 +24,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2021",
       "groesse": "50×60 cm",
-      "farbe": "#888888",
+      "farbe": "#2060a8",
       "sold": false
     },
     {
@@ -42,7 +33,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "40×50 cm",
-      "farbe": "#888888",
+      "farbe": "#c87040",
       "sold": false
     },
     {
@@ -51,7 +42,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2021",
       "groesse": "40×50 cm",
-      "farbe": "#888888",
+      "farbe": "#8a9050",
       "sold": false
     },
     {
@@ -60,7 +51,7 @@
       "technik": "oil on canvas",
       "jahr": "2025",
       "groesse": "40×40 cm",
-      "farbe": "#888888",
+      "farbe": "#5a3820",
       "sold": false
     },
     {
@@ -69,7 +60,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "60×80 cm",
-      "farbe": "#888888",
+      "farbe": "#a06858",
       "sold": false
     },
     {
@@ -78,7 +69,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "60×80 cm",
-      "farbe": "#888888",
+      "farbe": "#607050",
       "sold": false
     },
     {
@@ -87,7 +78,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2021",
       "groesse": "40×40 cm",
-      "farbe": "#888888",
+      "farbe": "#5080a0",
       "sold": false
     },
     {
@@ -96,7 +87,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "20×30 cm",
-      "farbe": "#888888",
+      "farbe": "#608040",
       "sold": false
     },
     {
@@ -105,7 +96,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2020",
       "groesse": "40×30 cm",
-      "farbe": "#888888",
+      "farbe": "#906858",
       "sold": false
     },
     {
@@ -114,7 +105,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "30×40 cm",
-      "farbe": "#888888",
+      "farbe": "#b89060",
       "sold": false
     },
     {
@@ -123,7 +114,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2020",
       "groesse": "18×24 cm",
-      "farbe": "#888888",
+      "farbe": "#c04040",
       "sold": false
     },
     {
@@ -132,7 +123,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2021",
       "groesse": "30×40 cm",
-      "farbe": "#888888",
+      "farbe": "#d06830",
       "sold": false
     },
     {
@@ -141,7 +132,7 @@
       "technik": "oil on canvas",
       "jahr": "2026",
       "groesse": "60×80 cm",
-      "farbe": "#888888",
+      "farbe": "#2070a0",
       "sold": false
     },
     {
@@ -150,7 +141,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "30×40 cm",
-      "farbe": "#888888",
+      "farbe": "#988878",
       "sold": false
     },
     {
@@ -159,7 +150,7 @@
       "technik": "oil on canvas",
       "jahr": "2025",
       "groesse": "100×100 cm",
-      "farbe": "#888888",
+      "farbe": "#403028",
       "sold": false
     },
     {
@@ -168,7 +159,7 @@
       "technik": "oil on canvas",
       "jahr": "2026",
       "groesse": "50×100 cm",
-      "farbe": "#888888",
+      "farbe": "#c08040",
       "sold": false
     },
     {
@@ -177,7 +168,7 @@
       "technik": "oil on canvas",
       "jahr": "2025",
       "groesse": "50×60 cm",
-      "farbe": "#888888",
+      "farbe": "#304050",
       "sold": false
     },
     {
@@ -186,7 +177,7 @@
       "technik": "oil on canvas",
       "jahr": "2026",
       "groesse": "50×70 cm",
-      "farbe": "#888888",
+      "farbe": "#d4a030",
       "sold": false
     },
     {
@@ -195,7 +186,7 @@
       "technik": "oil on canvas",
       "jahr": "2024",
       "groesse": "50×60 cm",
-      "farbe": "#888888",
+      "farbe": "#906070",
       "sold": false
     },
     {
@@ -204,7 +195,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "60×80 cm",
-      "farbe": "#888888",
+      "farbe": "#507090",
       "sold": false
     },
     {
@@ -213,7 +204,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "50×70 cm",
-      "farbe": "#888888",
+      "farbe": "#806840",
       "sold": false
     },
     {
@@ -222,7 +213,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2021",
       "groesse": "40×40 cm",
-      "farbe": "#888888",
+      "farbe": "#c08030",
       "sold": false
     },
     {
@@ -231,7 +222,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "30×40 cm",
-      "farbe": "#888888",
+      "farbe": "#a09070",
       "sold": false
     },
     {
@@ -240,7 +231,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "80×80 cm",
-      "farbe": "#888888",
+      "farbe": "#607880",
       "sold": false
     },
     {
@@ -249,7 +240,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "80×100 cm",
-      "farbe": "#888888",
+      "farbe": "#806878",
       "sold": false
     },
     {
@@ -258,7 +249,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "40×60 cm",
-      "farbe": "#888888",
+      "farbe": "#b07050",
       "sold": false
     },
     {
@@ -267,7 +258,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "40×60 cm",
-      "farbe": "#888888",
+      "farbe": "#c09060",
       "sold": false
     },
     {
@@ -276,7 +267,7 @@
       "technik": "oil on canvas",
       "jahr": "2025",
       "groesse": "30×90 cm",
-      "farbe": "#888888",
+      "farbe": "#406030",
       "sold": false
     },
     {
@@ -285,7 +276,7 @@
       "technik": "oil on canvas",
       "jahr": "2025",
       "groesse": "140×100 cm",
-      "farbe": "#888888",
+      "farbe": "#a08070",
       "sold": false
     },
     {
@@ -294,7 +285,7 @@
       "technik": "oil on canvas",
       "jahr": "2026",
       "groesse": "50×70 cm",
-      "farbe": "#888888",
+      "farbe": "#a0c070",
       "sold": false
     },
     {
@@ -303,7 +294,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2026",
       "groesse": "30×40 cm",
-      "farbe": "#888888",
+      "farbe": "#906040",
       "sold": false
     },
     {
@@ -312,7 +303,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2026",
       "groesse": "30×40 cm",
-      "farbe": "#888888",
+      "farbe": "#c09050",
       "sold": false
     },
     {
@@ -321,7 +312,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2026",
       "groesse": "30×30 cm",
-      "farbe": "#888888",
+      "farbe": "#a07050",
       "sold": false
     },
     {
@@ -330,7 +321,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2026",
       "groesse": "30×40 cm",
-      "farbe": "#888888",
+      "farbe": "#b08060",
       "sold": false
     },
     {
@@ -339,7 +330,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2021",
       "groesse": "40×40 cm",
-      "farbe": "#888888",
+      "farbe": "#c06040",
       "sold": false
     },
     {
@@ -348,7 +339,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "60×80 cm",
-      "farbe": "#888888",
+      "farbe": "#d4a020",
       "sold": false
     },
     {
@@ -357,7 +348,7 @@
       "technik": "oil on canvas",
       "jahr": "2024",
       "groesse": "50×60 cm",
-      "farbe": "#888888",
+      "farbe": "#503060",
       "sold": false
     },
     {
@@ -366,7 +357,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "40×50 cm",
-      "farbe": "#888888",
+      "farbe": "#7090b0",
       "sold": false
     },
     {
@@ -375,7 +366,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2023",
       "groesse": "60×80 cm",
-      "farbe": "#888888",
+      "farbe": "#c08858",
       "sold": false
     },
     {
@@ -384,7 +375,7 @@
       "technik": "acrylic on canvas",
       "jahr": "2024",
       "groesse": "50×70 cm",
-      "farbe": "#888888",
+      "farbe": "#607080",
       "sold": false
     }
   ]
