@@ -1,15 +1,6 @@
 {
   "bilder": [
     {
-      "bild": "fluffy cat.jpg",
-      "titel": "Fluffy Cat",
-      "technik": "acrylic on canvas",
-      "jahr": "2025",
-      "groesse": "30×40 cm",
-      "farbe": "#988878",
-      "sold": false
-    },
-    {
       "bild": "magick.jpg",
       "titel": "Magick",
       "technik": "acrylic on canvas",
@@ -142,6 +133,15 @@
       "jahr": "2026",
       "groesse": "60×80 cm",
       "farbe": "#2070a0",
+      "sold": false
+    },
+    {
+      "bild": "fluffy cat.jpg",
+      "titel": "Fluffy Cat",
+      "technik": "acrylic on canvas",
+      "jahr": "2025",
+      "groesse": "30×40 cm",
+      "farbe": "#988878",
       "sold": false
     },
     {
