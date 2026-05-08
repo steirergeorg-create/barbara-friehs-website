@@ -1,21 +1,21 @@
 {
   "bilder": [
     {
-      "bild": "cat in a box.jpg",
-      "titel": "Cat In A Box1",
-      "technik": "oil on canvas",
-      "jahr": "1",
-      "groesse": "1×1 cm",
-      "farbe": "#888888",
-      "sold": true
-    },
-    {
       "bild": "magick.jpg",
       "titel": "dfgfdg",
       "technik": "acrylic on canvas",
       "jahr": "22222",
       "groesse": "22222×22222 cm",
       "farbe": "#d4a020",
+      "sold": true
+    },
+    {
+      "bild": "cat in a box.jpg",
+      "titel": "Cat In A Box11",
+      "technik": "oil on canvas",
+      "jahr": "11",
+      "groesse": "11×11 cm",
+      "farbe": "#888888",
       "sold": false
     },
     {
@@ -25,7 +25,7 @@
       "jahr": "2026",
       "groesse": "40×40 cm",
       "farbe": "#4a7040",
-      "sold": true
+      "sold": false
     },
     {
       "bild": "liecken.jpg",
