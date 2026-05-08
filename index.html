@@ -141,13 +141,13 @@ const WEBSITE = {
   email:        "bfriehs@gmail.com",
   instagram:    "https://instagram.com/painting_like_a_maniac",
   instagram_handle: "painting_like_a_maniac",
-  linkedin:     "https://www.linkedin.com/in/barbara-friehs/?originalSubdomain=atm",
+  linkedin:     "https://www.linkedin.com/in/barbara-friehs/?originalSubdomain=at",
   artsy:        "",
 
   /* --- Über mich --- */
   ueber_titel:  "Colour as inner force",
-  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes.",
-  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists.",
+  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes — from portraits and still lifes to fantastical scenes.",
+  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists. Her works can be found on Saatchi Art, ArtMajeur and Instagram.",
 
   /* --- Bilder ---
      "bild"    → Dateipfad oder URL zum Bild, z.B. "bilder/werk1.jpg"
@@ -1224,84 +1224,51 @@ function buildPainting(img, i) {
   return item;
 }
 
-// 1. Zuerst WEBSITE.bilder anzeigen
-WEBSITE.bilder.forEach((img,i) => {
-  const item = buildPainting(img, i);
-  gg.appendChild(item);
-  obs.observe(item);
-});
-
-// 2. config.json laden: neue Bilder + SOLD Status + Titeländerungen
+// Galerie laden: config.json ist die Quelle der Wahrheit für Reihenfolge
+// WEBSITE.bilder dient nur als Fallback wenn config.json nicht erreichbar ist
 fetch('config.json?v='+Date.now())
   .then(r => r.ok ? r.json() : null)
   .then(config => {
-    if (!config || !config.bilder) return;
-    const existing = new Set(WEBSITE.bilder.map(b => b.bild));
+    // Merge: config.json Reihenfolge + WEBSITE.bilder Farben als Fallback
+    const websiteMap = {};
+    WEBSITE.bilder.forEach(b => { websiteMap[b.bild] = b; });
 
-    // Neue Bilder hinzufügen
-    const newImgs = config.bilder.filter(b => !existing.has(b.bild));
-    // Neue Bilder in umgekehrter Reihenfolge vorne einfügen damit neueste zuerst kommt
-    [...newImgs].reverse().forEach((img, i) => {
-      const item = buildPainting(img, WEBSITE.bilder.length + i);
-      gg.prepend(item);
+    const bilder = config && config.bilder && config.bilder.length > 0
+      ? config.bilder.map(b => ({ ...websiteMap[b.bild], ...b }))
+      : WEBSITE.bilder;
+
+    // Galerie komplett neu aufbauen in der richtigen Reihenfolge
+    Array.from(gg.querySelectorAll('.painting')).forEach(el => el.remove());
+    bilder.forEach((img, i) => {
+      const item = buildPainting(img, i);
+      gg.appendChild(item);
       obs.observe(item);
     });
+
+    if (!config) return;
 
     // Titelbild (Hero) aktualisieren falls gesetzt
     if (config.titelbild) {
       const hw = document.getElementById('hero-img-wrap');
       if (hw) {
-        const heroFilename = config.titelbild;
-        const heroSrc = `https://raw.githubusercontent.com/BarbaraFriehs/barbara-friehs-website/main/${encodeURIComponent(heroFilename)}`;
+        const heroSrc = `https://raw.githubusercontent.com/BarbaraFriehs/barbara-friehs-website/main/${encodeURIComponent(config.titelbild)}`;
         hw.innerHTML = '';
         const img = document.createElement('img');
         img.src = heroSrc;
-        img.alt = heroFilename.replace(/\.[^.]+$/, '');
+        img.alt = config.titelbild.replace(/\.[^.]+$/, '');
         img.style.cssText = 'width:100%;height:100%;object-fit:cover';
         hw.appendChild(img);
       }
     }
-
-    // Gelöschte Bilder ausblenden — nur Bilder zeigen die noch in config.json sind
-    const configBilder = new Set(config.bilder.map(b => b.bild));
-    gg.querySelectorAll('.painting').forEach(item => {
-      const img = item.querySelector('img');
-      if (!img) return;
-      const src = decodeURIComponent(img.src || '');
-      const inConfig = config.bilder.some(b => src.includes(b.bild));
-      if (!inConfig) item.style.display = 'none';
-    });
-
-    // SOLD Status + Metadaten auf bestehende Bilder anwenden
-    config.bilder.forEach(b => {
-      // Finde das entsprechende DOM-Element
-      const items = gg.querySelectorAll('.painting');
-      items.forEach(item => {
-        const img = item.querySelector('img');
-        if (!img) return;
-        const src = img.src || '';
-        if (!src.includes(encodeURIComponent(b.bild)) && !src.includes(b.bild)) return;
-
-        // SOLD Stempel
-        if (b.sold) item.classList.add('is-sold');
-        else item.classList.remove('is-sold');
-        // Titel
-        if (b.titel) {
-          const titleEl = item.querySelector('.overlay-title');
-          if (titleEl) titleEl.textContent = b.titel;
-        }
-        // Technik, Jahr, Größe
-        const metaEl = item.querySelector('.overlay-meta');
-        if (metaEl) {
-          const t = b.technik || '';
-          const j = b.jahr   || '';
-          const g = b.groesse|| '';
-          metaEl.textContent = [j, t.toUpperCase(), g.toUpperCase()].filter(Boolean).join(' · ');
-        }
-      });
-    });
   })
-  .catch(() => {}); // Kein config.json = kein Problem
+  .catch(() => {
+    // Fallback: WEBSITE.bilder direkt anzeigen
+    WEBSITE.bilder.forEach((img, i) => {
+      const item = buildPainting(img, i);
+      gg.appendChild(item);
+      obs.observe(item);
+    });
+  });
 
 /* Kurse werden direkt als Konfetti-Widgets im HTML gerendert — kein JS nötig */
 </script>
