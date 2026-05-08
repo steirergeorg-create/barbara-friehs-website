@@ -43,7 +43,7 @@
       "jahr": "2021",
       "groesse": "40×50 cm",
       "farbe": "#8a9050",
-      "sold": true
+      "sold": false
     },
     {
       "bild": "books.jpg",
@@ -379,5 +379,5 @@
       "sold": false
     }
   ],
-  "titelbild": "pears and tea.jpg"
+  "titelbild": "magick.jpg"
 }
