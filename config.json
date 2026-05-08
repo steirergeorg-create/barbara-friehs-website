@@ -10,6 +10,15 @@
       "sold": true
     },
     {
+      "bild": "cococunt blood orange.jpg",
+      "titel": "Coconut Blood Orange",
+      "technik": "acrylic on canvas",
+      "jahr": "2021",
+      "groesse": "30×40 cm",
+      "farbe": "#d06830",
+      "sold": false
+    },
+    {
       "bild": "cat in a box.jpg",
       "titel": "Cat In A Box11",
       "technik": "oil on canvas",
@@ -115,15 +124,6 @@
       "jahr": "2020",
       "groesse": "18×24 cm",
       "farbe": "#c04040",
-      "sold": false
-    },
-    {
-      "bild": "cococunt blood orange.jpg",
-      "titel": "Coconut Blood Orange",
-      "technik": "acrylic on canvas",
-      "jahr": "2021",
-      "groesse": "30×40 cm",
-      "farbe": "#d06830",
       "sold": false
     },
     {
