@@ -1,12 +1,12 @@
 {
   "bilder": [
     {
-      "bild": "katze.png",
-      "titel": "Katze",
-      "technik": "acrylic on canvas",
+      "bild": "Fiddle leaf fig.jpg",
+      "titel": "Fiddle Leaf Fig",
+      "technik": "oil on canvas",
       "jahr": "2026",
-      "groesse": "",
-      "farbe": "#888888",
+      "groesse": "40×40 cm",
+      "farbe": "#4a7040",
       "sold": false
     },
     {
@@ -16,51 +16,6 @@
       "jahr": "22222",
       "groesse": "22222×22222 cm",
       "farbe": "#d4a020",
-      "sold": true
-    },
-    {
-      "bild": "pears and tea.jpg",
-      "titel": "Pears and Tea",
-      "technik": "acrylic on canvas",
-      "jahr": "2021",
-      "groesse": "40×50 cm",
-      "farbe": "#8a9050",
-      "sold": false
-    },
-    {
-      "bild": "cococunt blood orange.jpg",
-      "titel": "Coconut Blood Orange",
-      "technik": "acrylic on canvas",
-      "jahr": "2021",
-      "groesse": "30×40 cm",
-      "farbe": "#d06830",
-      "sold": false
-    },
-    {
-      "bild": "chickens.jpg",
-      "titel": "Chickens",
-      "technik": "acrylic on canvas",
-      "jahr": "2025",
-      "groesse": "30×40 cm",
-      "farbe": "#b89060",
-      "sold": false
-    },
-    {
-      "bild": "plantains and oranges.jpg",
-      "titel": "Plantains and Oranges",
-      "technik": "acrylic on canvas",
-      "jahr": "2021",
-      "groesse": "40×40 cm",
-      "farbe": "#c08030",
-      "sold": false
-    },
-    {
-      "bild": "Fiddle leaf fig.jpg",
-      "titel": "Fiddle Leaf Fig",
-      "technik": "oil on canvas",
-      "jahr": "2026",
-      "groesse": "40×40 cm",
-      "farbe": "#4a7040",
       "sold": false
     },
     {
@@ -79,6 +34,15 @@
       "jahr": "2024",
       "groesse": "40×50 cm",
       "farbe": "#c87040",
+      "sold": false
+    },
+    {
+      "bild": "pears and tea.jpg",
+      "titel": "Pears and Tea",
+      "technik": "acrylic on canvas",
+      "jahr": "2021",
+      "groesse": "40×50 cm",
+      "farbe": "#8a9050",
       "sold": false
     },
     {
@@ -136,6 +100,15 @@
       "sold": false
     },
     {
+      "bild": "chickens.jpg",
+      "titel": "Chickens",
+      "technik": "acrylic on canvas",
+      "jahr": "2025",
+      "groesse": "30×40 cm",
+      "farbe": "#b89060",
+      "sold": false
+    },
+    {
       "bild": "christmas cactus.jpg",
       "titel": "Christmas Cactus",
       "technik": "acrylic on canvas",
@@ -145,12 +118,39 @@
       "sold": false
     },
     {
+      "bild": "cococunt blood orange.jpg",
+      "titel": "Coconut Blood Orange",
+      "technik": "acrylic on canvas",
+      "jahr": "2021",
+      "groesse": "30×40 cm",
+      "farbe": "#d06830",
+      "sold": false
+    },
+    {
+      "bild": "diving on the Seychelles.jpg",
+      "titel": "Diving on the Seychelles",
+      "technik": "oil on canvas",
+      "jahr": "2026",
+      "groesse": "60×80 cm",
+      "farbe": "#2070a0",
+      "sold": false
+    },
+    {
       "bild": "fluffy cat.jpg",
       "titel": "Fluffy Cat",
       "technik": "acrylic on canvas",
       "jahr": "2025",
       "groesse": "30×40 cm",
       "farbe": "#988878",
+      "sold": false
+    },
+    {
+      "bild": "Goethes Faust.jpg",
+      "titel": "Goethe's Faust",
+      "technik": "oil on canvas",
+      "jahr": "2025",
+      "groesse": "100×100 cm",
+      "farbe": "#403028",
       "sold": false
     },
     {
@@ -181,24 +181,6 @@
       "sold": false
     },
     {
-      "bild": "Goethes Faust.jpg",
-      "titel": "Goethe's Faust",
-      "technik": "oil on canvas",
-      "jahr": "2025",
-      "groesse": "100×100 cm",
-      "farbe": "#403028",
-      "sold": false
-    },
-    {
-      "bild": "diving on the Seychelles.jpg",
-      "titel": "Diving on the Seychelles",
-      "technik": "oil on canvas",
-      "jahr": "2026",
-      "groesse": "60×80 cm",
-      "farbe": "#2070a0",
-      "sold": false
-    },
-    {
       "bild": "look on me.jpg",
       "titel": "Look on Me",
       "technik": "oil on canvas",
@@ -223,6 +205,15 @@
       "jahr": "2025",
       "groesse": "50×70 cm",
       "farbe": "#806840",
+      "sold": false
+    },
+    {
+      "bild": "plantains and oranges.jpg",
+      "titel": "Plantains and Oranges",
+      "technik": "acrylic on canvas",
+      "jahr": "2021",
+      "groesse": "40×40 cm",
+      "farbe": "#c08030",
       "sold": false
     },
     {
