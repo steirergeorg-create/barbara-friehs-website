@@ -1,15 +1,6 @@
 {
   "bilder": [
     {
-      "bild": "cat in a box.jpg",
-      "titel": "Cat In A Box",
-      "technik": "acrylic on canvas",
-      "jahr": "2020",
-      "groesse": "40×30 cm",
-      "farbe": "#888888",
-      "sold": false
-    },
-    {
       "bild": "magick.jpg",
       "titel": "dfgfdg",
       "technik": "acrylic on canvas",
@@ -19,12 +10,12 @@
       "sold": false
     },
     {
-      "bild": "Fiddle leaf fig.jpg",
-      "titel": "Fiddle Leaf Fig",
-      "technik": "oil on canvas",
-      "jahr": "2026",
+      "bild": "bridge in greece.jpg",
+      "titel": "Bridge in Greece",
+      "technik": "acrylic on canvas",
+      "jahr": "2021",
       "groesse": "40×40 cm",
-      "farbe": "#4a7040",
+      "farbe": "#5080a0",
       "sold": false
     },
     {
@@ -82,21 +73,30 @@
       "sold": false
     },
     {
-      "bild": "bridge in greece.jpg",
-      "titel": "Bridge in Greece",
-      "technik": "acrylic on canvas",
-      "jahr": "2021",
-      "groesse": "40×40 cm",
-      "farbe": "#5080a0",
+      "bild": "Goethes Faust.jpg",
+      "titel": "Goethe's Faust",
+      "technik": "oil on canvas",
+      "jahr": "2025",
+      "groesse": "100×100 cm",
+      "farbe": "#403028",
       "sold": false
     },
     {
-      "bild": "cactus love.jpg",
-      "titel": "Cactus Love",
+      "bild": "Fiddle leaf fig.jpg",
+      "titel": "Fiddle Leaf Fig",
+      "technik": "oil on canvas",
+      "jahr": "2026",
+      "groesse": "40×40 cm",
+      "farbe": "#4a7040",
+      "sold": false
+    },
+    {
+      "bild": "cat in a box.jpg",
+      "titel": "Cat In A Box",
       "technik": "acrylic on canvas",
-      "jahr": "2025",
-      "groesse": "20×30 cm",
-      "farbe": "#608040",
+      "jahr": "2020",
+      "groesse": "40×30 cm",
+      "farbe": "#888888",
       "sold": false
     },
     {
@@ -145,12 +145,12 @@
       "sold": false
     },
     {
-      "bild": "Goethes Faust.jpg",
-      "titel": "Goethe's Faust",
-      "technik": "oil on canvas",
+      "bild": "cactus love.jpg",
+      "titel": "Cactus Love",
+      "technik": "acrylic on canvas",
       "jahr": "2025",
-      "groesse": "100×100 cm",
-      "farbe": "#403028",
+      "groesse": "20×30 cm",
+      "farbe": "#608040",
       "sold": false
     },
     {
