@@ -28,6 +28,15 @@
       "sold": false
     },
     {
+      "bild": "chickens.jpg",
+      "titel": "Chickens",
+      "technik": "acrylic on canvas",
+      "jahr": "2025",
+      "groesse": "30×40 cm",
+      "farbe": "#b89060",
+      "sold": false
+    },
+    {
       "bild": "plantains and oranges.jpg",
       "titel": "Plantains and Oranges",
       "technik": "acrylic on canvas",
@@ -115,15 +124,6 @@
       "jahr": "11",
       "groesse": "11×11 cm",
       "farbe": "#888888",
-      "sold": false
-    },
-    {
-      "bild": "chickens.jpg",
-      "titel": "Chickens",
-      "technik": "acrylic on canvas",
-      "jahr": "2025",
-      "groesse": "30×40 cm",
-      "farbe": "#b89060",
       "sold": false
     },
     {
