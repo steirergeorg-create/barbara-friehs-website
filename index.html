@@ -141,13 +141,13 @@ const WEBSITE = {
   email:        "bfriehs@gmail.com",
   instagram:    "https://instagram.com/painting_like_a_maniac",
   instagram_handle: "painting_like_a_maniac",
-  linkedin:     "https://www.linkedin.com/in/barbara-friehs/?originalSubdomain=atm",
+  linkedin:     "https://www.linkedin.com/in/barbara-friehs/?originalSubdomain=at",
   artsy:        "",
 
   /* --- Über mich --- */
   ueber_titel:  "Colour as inner force",
-  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes.",
-  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists.",
+  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes — from portraits and still lifes to fantastical scenes.",
+  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists. Her works can be found on Saatchi Art, ArtMajeur and Instagram.",
 
   /* --- Bilder ---
      "bild"    → Dateipfad oder URL zum Bild, z.B. "bilder/werk1.jpg"
@@ -345,18 +345,17 @@ const WEBSITE = {
 
   /* Masonry via CSS Columns — füllt Lücken automatisch, keine schwarzen Streifen */
   .gallery-grid{
-    columns:3;
-    column-gap:1rem;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1rem;
     max-width:1200px;
     margin:0 auto;
   }
   .painting{
-    break-inside:avoid;       /* Bild nie über Spaltengrenze aufteilen */
     overflow:hidden;
     position:relative;
-    background:transparent;   /* kein schwarzer Hintergrund */
+    background:transparent;
     border-radius:2px;
-    margin-bottom:1rem;       /* Abstand zwischen Bildern */
     display:block;
   }
   /* Bild vollständig sichtbar, natürliche Höhe */
@@ -643,7 +642,7 @@ const WEBSITE = {
 
   /* Tablet Portrait: bis 1024px */
   @media(max-width:1024px){
-    .gallery-grid{columns:2}
+    .gallery-grid{grid-template-columns:repeat(2,1fr)}
     .courses-grid{grid-template-columns:repeat(2,1fr)}
     .courses-header{grid-template-columns:1fr;gap:2rem}
     .about{grid-template-columns:1fr 1.5fr;gap:3rem}
@@ -750,7 +749,7 @@ const WEBSITE = {
 
     /* Galerie */
     .gallery-section{padding:3.5rem 1.2rem}
-    .gallery-grid{columns:2;column-gap:.6rem}
+    .gallery-grid{grid-template-columns:repeat(2,1fr);column-gap:.6rem}
     .painting{margin-bottom:.6rem}
 
     /* Kurse */
@@ -776,7 +775,7 @@ const WEBSITE = {
 
   /* Smartphone Portrait: bis 480px */
   @media(max-width:480px){
-    .gallery-grid{columns:1}
+    .gallery-grid{grid-template-columns:1fr}
     .hero-title{font-size:clamp(2rem,11vw,2.8rem)}
     /* hero-right auf 480px: natürliche Bildgröße beibehalten */
     .kurs-titel{font-size:1.3rem}
