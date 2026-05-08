@@ -1,15 +1,6 @@
 {
   "bilder": [
     {
-      "bild": "katze.png",
-      "titel": "Hund",
-      "technik": "oil on canvas",
-      "jahr": "1999",
-      "groesse": "1×1 cm",
-      "farbe": "#888888",
-      "sold": false
-    },
-    {
       "bild": "magick.jpg",
       "titel": "Magick",
       "technik": "oil on canvas",
