@@ -16,7 +16,7 @@
       "jahr": "2026",
       "groesse": "40×40 cm",
       "farbe": "#4a7040",
-      "sold": false
+      "sold": true
     },
     {
       "bild": "liecken.jpg",
@@ -379,5 +379,5 @@
       "sold": false
     }
   ],
-  "titelbild": "magick.jpg"
+  "titelbild": "Fiddle leaf fig.jpg"
 }
