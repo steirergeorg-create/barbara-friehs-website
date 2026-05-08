@@ -7,7 +7,7 @@
       "jahr": "22222",
       "groesse": "22222×22222 cm",
       "farbe": "#d4a020",
-      "sold": true
+      "sold": false
     },
     {
       "bild": "Fiddle leaf fig.jpg",
@@ -381,11 +381,11 @@
     {
       "bild": "katze.png",
       "titel": "Katze",
-      "technik": "acrylic on canvas",
-      "jahr": "2026",
-      "groesse": "",
+      "technik": "watercolour on paper",
+      "jahr": "2020",
+      "groesse": "1×1 cm",
       "farbe": "#888888",
-      "sold": false
+      "sold": true
     }
   ]
 }
