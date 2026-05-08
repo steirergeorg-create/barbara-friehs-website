@@ -141,13 +141,13 @@ const WEBSITE = {
   email:        "bfriehs@gmail.com",
   instagram:    "https://instagram.com/painting_like_a_maniac",
   instagram_handle: "painting_like_a_maniac",
-  linkedin:     "https://www.linkedin.com/in/barbara-friehs/?originalSubdomain=atm",
+  linkedin:     "https://www.linkedin.com/in/barbara-friehs/?originalSubdomain=at",
   artsy:        "",
 
   /* --- Über mich --- */
   ueber_titel:  "Colour as inner force",
-  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes.",
-  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists.",
+  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes — from portraits and still lifes to fantastical scenes.",
+  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists. Her works can be found on Saatchi Art, ArtMajeur and Instagram.",
 
   /* --- Bilder ---
      "bild"    → Dateipfad oder URL zum Bild, z.B. "bilder/werk1.jpg"
@@ -1246,6 +1246,21 @@ fetch('config.json?v='+Date.now())
       gg.prepend(item);
       obs.observe(item);
     });
+
+    // Titelbild (Hero) aktualisieren falls gesetzt
+    if (config.titelbild) {
+      const hw = document.getElementById('hero-img-wrap');
+      if (hw) {
+        const heroFilename = config.titelbild;
+        const heroSrc = `https://raw.githubusercontent.com/BarbaraFriehs/barbara-friehs-website/main/${encodeURIComponent(heroFilename)}`;
+        hw.innerHTML = '';
+        const img = document.createElement('img');
+        img.src = heroSrc;
+        img.alt = heroFilename.replace(/\.[^.]+$/, '');
+        img.style.cssText = 'width:100%;height:100%;object-fit:cover';
+        hw.appendChild(img);
+      }
+    }
 
     // Gelöschte Bilder ausblenden — nur Bilder zeigen die noch in config.json sind
     const configBilder = new Set(config.bilder.map(b => b.bild));
