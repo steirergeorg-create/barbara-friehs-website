@@ -10,30 +10,21 @@
       "sold": false
     },
     {
+      "bild": "liecken.jpg",
+      "titel": "Liecken",
+      "technik": "acrylic on canvas",
+      "jahr": "2021",
+      "groesse": "50×60 cm",
+      "farbe": "#2060a8",
+      "sold": false
+    },
+    {
       "bild": "Fiddle leaf fig.jpg",
       "titel": "Fiddle Leaf Fig",
       "technik": "oil on canvas",
       "jahr": "2026",
       "groesse": "40×40 cm",
       "farbe": "#4a7040",
-      "sold": false
-    },
-    {
-      "bild": "books.jpg",
-      "titel": "Books",
-      "technik": "oil on canvas",
-      "jahr": "2025",
-      "groesse": "40×40 cm",
-      "farbe": "#5a3820",
-      "sold": false
-    },
-    {
-      "bild": "pears and tea.jpg",
-      "titel": "Pears and Tea",
-      "technik": "acrylic on canvas",
-      "jahr": "2021",
-      "groesse": "40×50 cm",
-      "farbe": "#8a9050",
       "sold": false
     },
     {
@@ -46,30 +37,30 @@
       "sold": false
     },
     {
-      "bild": "liecken.jpg",
-      "titel": "Liecken",
+      "bild": "cat in a box.jpg",
+      "titel": "Cat In A Box",
+      "technik": "acrylic on canvas",
+      "jahr": "2020",
+      "groesse": "40×30 cm",
+      "farbe": "#888888",
+      "sold": false
+    },
+    {
+      "bild": "pears and tea.jpg",
+      "titel": "Pears and Tea",
       "technik": "acrylic on canvas",
       "jahr": "2021",
-      "groesse": "50×60 cm",
-      "farbe": "#2060a8",
+      "groesse": "40×50 cm",
+      "farbe": "#8a9050",
       "sold": false
     },
     {
-      "bild": "beaten down the path.jpg",
-      "titel": "Beaten Down the Path",
-      "technik": "acrylic on canvas",
-      "jahr": "2024",
-      "groesse": "60×80 cm",
-      "farbe": "#607050",
-      "sold": false
-    },
-    {
-      "bild": "Goethes Faust.jpg",
-      "titel": "Goethe's Faust",
+      "bild": "books.jpg",
+      "titel": "Books",
       "technik": "oil on canvas",
       "jahr": "2025",
-      "groesse": "100×100 cm",
-      "farbe": "#403028",
+      "groesse": "40×40 cm",
+      "farbe": "#5a3820",
       "sold": false
     },
     {
@@ -82,21 +73,21 @@
       "sold": false
     },
     {
+      "bild": "beaten down the path.jpg",
+      "titel": "Beaten Down the Path",
+      "technik": "acrylic on canvas",
+      "jahr": "2024",
+      "groesse": "60×80 cm",
+      "farbe": "#607050",
+      "sold": false
+    },
+    {
       "bild": "bridge in greece.jpg",
       "titel": "Bridge in Greece",
       "technik": "acrylic on canvas",
       "jahr": "2021",
       "groesse": "40×40 cm",
       "farbe": "#5080a0",
-      "sold": false
-    },
-    {
-      "bild": "In the deserts of San Diego.jpg",
-      "titel": "In the Deserts of San Diego",
-      "technik": "oil on canvas",
-      "jahr": "2026",
-      "groesse": "50×100 cm",
-      "farbe": "#c08040",
       "sold": false
     },
     {
@@ -115,15 +106,6 @@
       "jahr": "2025",
       "groesse": "30×40 cm",
       "farbe": "#b89060",
-      "sold": false
-    },
-    {
-      "bild": "cat in a box.jpg",
-      "titel": "Cat In A Box",
-      "technik": "acrylic on canvas",
-      "jahr": "2020",
-      "groesse": "40×30 cm",
-      "farbe": "#888888",
       "sold": false
     },
     {
@@ -160,6 +142,24 @@
       "jahr": "2025",
       "groesse": "30×40 cm",
       "farbe": "#988878",
+      "sold": false
+    },
+    {
+      "bild": "Goethes Faust.jpg",
+      "titel": "Goethe's Faust",
+      "technik": "oil on canvas",
+      "jahr": "2025",
+      "groesse": "100×100 cm",
+      "farbe": "#403028",
+      "sold": false
+    },
+    {
+      "bild": "In the deserts of San Diego.jpg",
+      "titel": "In the Deserts of San Diego",
+      "technik": "oil on canvas",
+      "jahr": "2026",
+      "groesse": "50×100 cm",
+      "farbe": "#c08040",
       "sold": false
     },
     {
