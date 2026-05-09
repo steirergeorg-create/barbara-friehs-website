@@ -10,15 +10,6 @@
       "sold": false
     },
     {
-      "bild": "IMG_7592.jpeg",
-      "titel": "Kind of blue",
-      "technik": "acrylic on canvas",
-      "jahr": "2025",
-      "groesse": "40×40 cm",
-      "farbe": "#888888",
-      "sold": false
-    },
-    {
       "bild": "Fiddle leaf fig.jpg",
       "titel": "Fiddle Leaf Fig",
       "technik": "oil on canvas",
@@ -88,6 +79,15 @@
       "jahr": "2021",
       "groesse": "40×40 cm",
       "farbe": "#5080a0",
+      "sold": false
+    },
+    {
+      "bild": "IMG_7592.jpeg",
+      "titel": "Kind of blue",
+      "technik": "acrylic on canvas",
+      "jahr": "2025",
+      "groesse": "40×40 cm",
+      "farbe": "#888888",
       "sold": false
     },
     {
