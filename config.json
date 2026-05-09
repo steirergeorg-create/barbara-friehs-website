@@ -1,6 +1,15 @@
 {
   "bilder": [
     {
+      "bild": "camphoto_959030623.jpeg",
+      "titel": "Camphoto 959030623",
+      "technik": "acrylic on canvas",
+      "jahr": "2026",
+      "groesse": "",
+      "farbe": "#888888",
+      "sold": false
+    },
+    {
       "bild": "magick.jpg",
       "titel": "Magick",
       "technik": "oil on canvas",
