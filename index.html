@@ -1195,6 +1195,9 @@ function buildPainting(img, i) {
   if(img.bild){
     const canvas=document.createElement('div');
     canvas.className='paint-canvas';
+    if(img.width && img.height){
+      canvas.style.aspectRatio = img.width+'/'+img.height;
+    }
     const picture=document.createElement('img');
     picture.alt=img.titel+' — '+img.technik+', '+img.jahr;
     picture.loading=i===0?'eager':'lazy';
