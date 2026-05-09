@@ -4,12 +4,10 @@
       "bild": "magick.jpg",
       "titel": "Magick",
       "technik": "oil on canvas",
-      "jahr": "2024",
-      "groesse": "120×80 cm",
+      "jahr": "2026",
+      "groesse": "80×120 cm",
       "farbe": "#d4a020",
-      "sold": false,
-      "width": 120,
-      "height": 80
+      "sold": false
     },
     {
       "bild": "Fiddle leaf fig.jpg",
@@ -18,20 +16,7 @@
       "jahr": "2026",
       "groesse": "40×40 cm",
       "farbe": "#4a7040",
-      "sold": false,
-      "width": 40,
-      "height": 40
-    },
-    {
-      "bild": "liecken.jpg",
-      "titel": "Liecken",
-      "technik": "acrylic on canvas",
-      "jahr": "2021",
-      "groesse": "50×60 cm",
-      "farbe": "#2060a8",
-      "sold": false,
-      "width": 50,
-      "height": 60
+      "sold": false
     },
     {
       "bild": "room in Milan.jpg",
@@ -40,9 +25,16 @@
       "jahr": "2024",
       "groesse": "40×50 cm",
       "farbe": "#c87040",
-      "sold": false,
-      "width": 40,
-      "height": 50
+      "sold": false
+    },
+    {
+      "bild": "liecken.jpg",
+      "titel": "Liecken",
+      "technik": "acrylic on canvas",
+      "jahr": "2021",
+      "groesse": "50×60 cm",
+      "farbe": "#2060a8",
+      "sold": false
     },
     {
       "bild": "pears and tea.jpg",
@@ -51,9 +43,7 @@
       "jahr": "2021",
       "groesse": "40×50 cm",
       "farbe": "#8a9050",
-      "sold": false,
-      "width": 40,
-      "height": 50
+      "sold": false
     },
     {
       "bild": "books.jpg",
@@ -62,9 +52,7 @@
       "jahr": "2025",
       "groesse": "40×40 cm",
       "farbe": "#5a3820",
-      "sold": false,
-      "width": 40,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "Anna Theke by herself.jpg",
@@ -73,9 +61,7 @@
       "jahr": "2024",
       "groesse": "60×80 cm",
       "farbe": "#a06858",
-      "sold": false,
-      "width": 60,
-      "height": 80
+      "sold": false
     },
     {
       "bild": "beaten down the path.jpg",
@@ -84,9 +70,7 @@
       "jahr": "2024",
       "groesse": "60×80 cm",
       "farbe": "#607050",
-      "sold": false,
-      "width": 60,
-      "height": 80
+      "sold": false
     },
     {
       "bild": "bridge in greece.jpg",
@@ -95,9 +79,16 @@
       "jahr": "2021",
       "groesse": "40×40 cm",
       "farbe": "#5080a0",
-      "sold": false,
-      "width": 40,
-      "height": 40
+      "sold": false
+    },
+    {
+      "bild": "IMG_7592.jpeg",
+      "titel": "Kind of blue",
+      "technik": "acrylic on canvas",
+      "jahr": "2025",
+      "groesse": "40×40 cm",
+      "farbe": "#888888",
+      "sold": false
     },
     {
       "bild": "cactus love.jpg",
@@ -106,20 +97,16 @@
       "jahr": "2025",
       "groesse": "20×30 cm",
       "farbe": "#608040",
-      "sold": false,
-      "width": 20,
-      "height": 30
+      "sold": false
     },
     {
       "bild": "cat in a box.jpg",
-      "titel": "Cat in a Box",
+      "titel": "Cat In A Box11",
       "technik": "acrylic on canvas",
-      "jahr": "2020",
+      "jahr": "20",
       "groesse": "40×30 cm",
       "farbe": "#906858",
-      "sold": false,
-      "width": 40,
-      "height": 30
+      "sold": false
     },
     {
       "bild": "chickens.jpg",
@@ -128,9 +115,7 @@
       "jahr": "2025",
       "groesse": "30×40 cm",
       "farbe": "#b89060",
-      "sold": false,
-      "width": 30,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "christmas cactus.jpg",
@@ -139,9 +124,7 @@
       "jahr": "2020",
       "groesse": "18×24 cm",
       "farbe": "#c04040",
-      "sold": false,
-      "width": 18,
-      "height": 24
+      "sold": false
     },
     {
       "bild": "cococunt blood orange.jpg",
@@ -150,9 +133,7 @@
       "jahr": "2021",
       "groesse": "30×40 cm",
       "farbe": "#d06830",
-      "sold": false,
-      "width": 30,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "diving on the Seychelles.jpg",
@@ -161,20 +142,7 @@
       "jahr": "2026",
       "groesse": "60×80 cm",
       "farbe": "#2070a0",
-      "sold": false,
-      "width": 60,
-      "height": 80
-    },
-    {
-      "bild": "fluffy cat.jpg",
-      "titel": "Fluffy Cat",
-      "technik": "acrylic on canvas",
-      "jahr": "2025",
-      "groesse": "30×40 cm",
-      "farbe": "#988878",
-      "sold": false,
-      "width": 30,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "Goethes Faust.jpg",
@@ -183,9 +151,7 @@
       "jahr": "2025",
       "groesse": "100×100 cm",
       "farbe": "#403028",
-      "sold": false,
-      "width": 100,
-      "height": 100
+      "sold": false
     },
     {
       "bild": "In the deserts of San Diego.jpg",
@@ -194,9 +160,16 @@
       "jahr": "2026",
       "groesse": "50×100 cm",
       "farbe": "#c08040",
-      "sold": false,
-      "width": 50,
-      "height": 100
+      "sold": false
+    },
+    {
+      "bild": "fluffy cat.jpg",
+      "titel": "Fluffy Cat",
+      "technik": "acrylic on canvas",
+      "jahr": "2025",
+      "groesse": "30×40 cm",
+      "farbe": "#988878",
+      "sold": false
     },
     {
       "bild": "In the shadows.jpg",
@@ -205,9 +178,7 @@
       "jahr": "2025",
       "groesse": "50×60 cm",
       "farbe": "#304050",
-      "sold": false,
-      "width": 50,
-      "height": 60
+      "sold": false
     },
     {
       "bild": "in the sunshine.jpg",
@@ -216,9 +187,7 @@
       "jahr": "2026",
       "groesse": "50×70 cm",
       "farbe": "#d4a030",
-      "sold": false,
-      "width": 50,
-      "height": 70
+      "sold": false
     },
     {
       "bild": "look on me.jpg",
@@ -227,9 +196,7 @@
       "jahr": "2024",
       "groesse": "50×60 cm",
       "farbe": "#906070",
-      "sold": false,
-      "width": 50,
-      "height": 60
+      "sold": false
     },
     {
       "bild": "looking ahead.jpg",
@@ -238,9 +205,7 @@
       "jahr": "2024",
       "groesse": "60×80 cm",
       "farbe": "#507090",
-      "sold": false,
-      "width": 60,
-      "height": 80
+      "sold": false
     },
     {
       "bild": "Opulence and common ground.jpg",
@@ -249,9 +214,7 @@
       "jahr": "2025",
       "groesse": "50×70 cm",
       "farbe": "#806840",
-      "sold": false,
-      "width": 50,
-      "height": 70
+      "sold": false
     },
     {
       "bild": "plantains and oranges.jpg",
@@ -260,9 +223,7 @@
       "jahr": "2021",
       "groesse": "40×40 cm",
       "farbe": "#c08030",
-      "sold": false,
-      "width": 40,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "province in france.jpg",
@@ -271,9 +232,7 @@
       "jahr": "2024",
       "groesse": "30×40 cm",
       "farbe": "#a09070",
-      "sold": false,
-      "width": 30,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "Room at the Baltic sea.jpg",
@@ -282,9 +241,7 @@
       "jahr": "2025",
       "groesse": "80×80 cm",
       "farbe": "#607880",
-      "sold": false,
-      "width": 80,
-      "height": 80
+      "sold": false
     },
     {
       "bild": "room in paris.jpg",
@@ -293,9 +250,7 @@
       "jahr": "2025",
       "groesse": "80×100 cm",
       "farbe": "#806878",
-      "sold": false,
-      "width": 80,
-      "height": 100
+      "sold": false
     },
     {
       "bild": "Room in Utah.jpg",
@@ -304,9 +259,7 @@
       "jahr": "2025",
       "groesse": "40×60 cm",
       "farbe": "#b07050",
-      "sold": false,
-      "width": 40,
-      "height": 60
+      "sold": false
     },
     {
       "bild": "room in venice.jpg",
@@ -315,9 +268,7 @@
       "jahr": "2024",
       "groesse": "40×60 cm",
       "farbe": "#c09060",
-      "sold": false,
-      "width": 40,
-      "height": 60
+      "sold": false
     },
     {
       "bild": "section of a forest.jpg",
@@ -326,9 +277,7 @@
       "jahr": "2025",
       "groesse": "30×90 cm",
       "farbe": "#406030",
-      "sold": false,
-      "width": 30,
-      "height": 90
+      "sold": false
     },
     {
       "bild": "selfportrait with a cat.jpg",
@@ -337,9 +286,7 @@
       "jahr": "2025",
       "groesse": "140×100 cm",
       "farbe": "#a08070",
-      "sold": false,
-      "width": 140,
-      "height": 100
+      "sold": false
     },
     {
       "bild": "spring is around the corner.jpg",
@@ -348,9 +295,7 @@
       "jahr": "2026",
       "groesse": "50×70 cm",
       "farbe": "#a0c070",
-      "sold": false,
-      "width": 50,
-      "height": 70
+      "sold": false
     },
     {
       "bild": "still live number four.jpg",
@@ -359,9 +304,7 @@
       "jahr": "2026",
       "groesse": "30×40 cm",
       "farbe": "#906040",
-      "sold": false,
-      "width": 30,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "still live number one.jpg",
@@ -370,9 +313,7 @@
       "jahr": "2026",
       "groesse": "30×40 cm",
       "farbe": "#c09050",
-      "sold": false,
-      "width": 30,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "still live number three.jpg",
@@ -381,9 +322,7 @@
       "jahr": "2026",
       "groesse": "30×30 cm",
       "farbe": "#a07050",
-      "sold": false,
-      "width": 30,
-      "height": 30
+      "sold": false
     },
     {
       "bild": "still live number two.jpg",
@@ -392,9 +331,7 @@
       "jahr": "2026",
       "groesse": "30×40 cm",
       "farbe": "#b08060",
-      "sold": false,
-      "width": 30,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "succulents in the sunset.jpg",
@@ -403,9 +340,7 @@
       "jahr": "2021",
       "groesse": "40×40 cm",
       "farbe": "#c06040",
-      "sold": false,
-      "width": 40,
-      "height": 40
+      "sold": false
     },
     {
       "bild": "sunflowers.jpg",
@@ -414,9 +349,7 @@
       "jahr": "2024",
       "groesse": "60×80 cm",
       "farbe": "#d4a020",
-      "sold": false,
-      "width": 60,
-      "height": 80
+      "sold": false
     },
     {
       "bild": "tamed jimmy hendrix.jpg",
@@ -425,9 +358,7 @@
       "jahr": "2024",
       "groesse": "50×60 cm",
       "farbe": "#503060",
-      "sold": false,
-      "width": 50,
-      "height": 60
+      "sold": false
     },
     {
       "bild": "upwards.jpg",
@@ -436,9 +367,7 @@
       "jahr": "2025",
       "groesse": "40×50 cm",
       "farbe": "#7090b0",
-      "sold": false,
-      "width": 40,
-      "height": 50
+      "sold": false
     },
     {
       "bild": "visiting the market.jpg",
@@ -447,9 +376,7 @@
       "jahr": "2023",
       "groesse": "60×80 cm",
       "farbe": "#c08858",
-      "sold": false,
-      "width": 60,
-      "height": 80
+      "sold": false
     },
     {
       "bild": "waiting for the bus.jpg",
@@ -458,9 +385,7 @@
       "jahr": "2024",
       "groesse": "50×70 cm",
       "farbe": "#607080",
-      "sold": false,
-      "width": 50,
-      "height": 70
+      "sold": false
     }
   ]
 }
