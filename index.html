@@ -146,8 +146,8 @@ const WEBSITE = {
 
   /* --- Über mich --- */
   ueber_titel:  "Colour as inner force",
-  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes.",
-  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists.",
+  ueber_text1:  "Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes — from portraits and still lifes to fantastical scenes.",
+  ueber_text2:  "After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists. Her works can be found on Saatchi Art, ArtMajeur and Instagram.",
 
   /* --- Bilder ---
      "bild"    → Dateipfad oder URL zum Bild, z.B. "bilder/werk1.jpg"
@@ -358,6 +358,7 @@ const WEBSITE = {
     border-radius:2px;
     margin-bottom:1rem;
     display:block;
+    contain:layout style;
   }
   /* Bild vollständig sichtbar, natürliche Höhe */
   .painting .paint-canvas{
@@ -367,9 +368,13 @@ const WEBSITE = {
   }
   .painting .paint-canvas img{
     width:100%;
-    height:auto;              /* natürliche Bildproportion, kein Zuschneiden */
+    height:auto;
     display:block;
-    background:transparent;   /* kein schwarzer Rand */
+    background:transparent;
+    content-visibility:auto;
+  }
+  .painting .paint-canvas{
+    container-type:inline-size;
   }
   /* Platzhalter wenn kein Bild */
   .paint-placeholder-wrap{
