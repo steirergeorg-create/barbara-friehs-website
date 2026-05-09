@@ -1,17 +1,6 @@
 {
   "bilder": [
     {
-      "bild": "IMG_7830.png",
-      "titel": "IMG 7830",
-      "technik": "acrylic on canvas",
-      "jahr": "2026",
-      "groesse": "",
-      "farbe": "#888888",
-      "sold": false,
-      "width": 0,
-      "height": 0
-    },
-    {
       "bild": "magick.jpg",
       "titel": "Magick",
       "technik": "oil on canvas",
@@ -29,7 +18,7 @@
       "jahr": "2026",
       "groesse": "40×40 cm",
       "farbe": "#4a7040",
-      "sold": true,
+      "sold": false,
       "width": 40,
       "height": 40
     },
@@ -474,5 +463,5 @@
       "height": 70
     }
   ],
-  "titelbild": "room in Milan.jpg"
+  "titelbild": "magick.jpg"
 }
