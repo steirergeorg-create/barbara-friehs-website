@@ -1195,13 +1195,15 @@ function buildPainting(img, i) {
   if(img.bild){
     const canvas=document.createElement('div');
     canvas.className='paint-canvas';
-    if(img.width && img.height){
-      canvas.style.aspectRatio = img.width+'/'+img.height;
-    }
     const picture=document.createElement('img');
     picture.alt=img.titel+' — '+img.technik+', '+img.jahr;
     picture.loading=i===0?'eager':'lazy';
     picture.decoding='async';
+    // Seitenverhältnis sobald Bild geladen ist setzen (verhindert Masonry-Reflow)
+    picture.onload = function() {
+      canvas.style.aspectRatio = this.naturalWidth+'/'+this.naturalHeight;
+      canvas.style.overflow = 'hidden';
+    };
     picture.src=img.bild;
     canvas.appendChild(picture);
     item.appendChild(canvas);
