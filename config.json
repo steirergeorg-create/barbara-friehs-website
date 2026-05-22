@@ -29,7 +29,7 @@
       "jahr": "2026",
       "groesse": "40×40 cm",
       "farbe": "#888888",
-      "sold": true,
+      "sold": false,
       "width": 0,
       "height": 0
     },
@@ -40,7 +40,7 @@
       "jahr": "2021",
       "groesse": "50×60 cm",
       "farbe": "#888888",
-      "sold": true,
+      "sold": false,
       "width": 0,
       "height": 0
     },
@@ -474,5 +474,5 @@
       "height": 0
     }
   ],
-  "titelbild": "room in Milan.jpg"
+  "titelbild": "magick.jpg"
 }
