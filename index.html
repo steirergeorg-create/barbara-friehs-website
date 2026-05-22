@@ -108,7 +108,7 @@
       "@type": "Course",
       "name": "Life Drawing in Graz",
       "description": "Two-hour life drawing course in a real artist's studio in Graz. Suitable for beginners and advanced learners.",
-      "provider": {"@id": "https://barbarafriehs.eu/#person"},
+      "provider": {"@id": "https://steirergeorg-create.eu/#person"},
       "url": "https://gokonfetti.com/de-de/e/aktzeichnen-malkurs-in-graz-kreativ-zeichnen-lernen-w1dp6w/",
       "location": {"@type":"Place","addressLocality":"Graz","addressCountry":"AT"}
     },
@@ -116,7 +116,7 @@
       "@type": "Course",
       "name": "Creative Self-Portrait",
       "description": "Paint your own self-portrait — a colourful, vivid image of your personality. 4 hours in Graz, all levels welcome.",
-      "provider": {"@id": "https://barbarafriehs.eu/#person"},
+      "provider": {"@id": "https://steirergeorg-create.eu/#person"},
       "url": "https://gokonfetti.com/de-de/e/kreatives-selbstportrait-lerne-dich-selber-zu-malen-xl43p8/",
       "location": {"@type":"Place","addressLocality":"Graz","addressCountry":"AT"}
     }
@@ -1271,7 +1271,7 @@ fetch('config.json?v='+Date.now())
     if (config.titelbild) {
       const hw = document.getElementById('hero-img-wrap');
       if (hw) {
-        const heroSrc = `https://raw.githubusercontent.com/BarbaraFriehs/barbara-friehs-website/main/${encodeURIComponent(config.titelbild)}`;
+        const heroSrc = `https://raw.githubusercontent.com/steirergeorg-create/barbara-friehs-website/main/${encodeURIComponent(config.titelbild)}`;
         hw.innerHTML = '';
         const img = document.createElement('img');
         img.src = heroSrc;
