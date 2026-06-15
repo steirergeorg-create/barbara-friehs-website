@@ -37,7 +37,7 @@ export async function onRequest(context) {
       accounts(filter: {accountTag: "${accountId}"}) {
         byDay: httpRequestsAdaptiveGroups(
           limit: 30,
-          filter: { date_geq: "${dateStart}", date_leq: "${dateEnd}" },
+          filter: { date_geq: "${dateStart}", date_leq: "${dateEnd}", clientRequestHTTPHost_like: "%barbarafriehs%" },
           orderBy: [date_ASC]
         ) {
           count
@@ -46,7 +46,7 @@ export async function onRequest(context) {
         }
         byCountry: httpRequestsAdaptiveGroups(
           limit: 10,
-          filter: { date_geq: "${dateStart}", date_leq: "${dateEnd}" },
+          filter: { date_geq: "${dateStart}", date_leq: "${dateEnd}", clientRequestHTTPHost_like: "%barbarafriehs%" },
           orderBy: [sum_visits_DESC]
         ) {
           sum { visits }
