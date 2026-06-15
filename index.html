@@ -14,7 +14,6 @@
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://barbarafriehs.at/">
 <link rel="alternate" hreflang="en" href="https://barbarafriehs.at/">
-<link rel="alternate" hreflang="de" href="https://barbarafriehs.at/de/">
 <link rel="alternate" hreflang="x-default" href="https://barbarafriehs.at/">
 
 <!-- Open Graph (Facebook, LinkedIn, WhatsApp Vorschau) -->
@@ -22,7 +21,7 @@
 <meta property="og:title" content="Barbara Friehs — Painter | Graz, Austria">
 <meta property="og:description" content="Austrian-Mexican painter based in Graz. Expressive oil and acrylic paintings — vibrant colours, surreal themes. Painting courses available.">
 <meta property="og:url" content="https://barbarafriehs.at/">
-<meta property="og:image" content="https://barbarafriehs.at/barbara-friehs-magick-oil-painting-graz.jpg">
+<meta property="og:image" content="https://barbarafriehs.at/barbara-friehs-magick-oil-painting-graz.webp">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
@@ -33,7 +32,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Barbara Friehs — Painter | Graz, Austria">
 <meta name="twitter:description" content="Austrian-Mexican painter based in Graz. Expressive paintings in oil and acrylic.">
-<meta name="twitter:image" content="https://barbarafriehs.at/barbara-friehs-magick-oil-painting-graz.jpg">
+<meta name="twitter:image" content="https://barbarafriehs.at/barbara-friehs-magick-oil-painting-graz.webp">
 
 <!-- Sicherheits-Header -->
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -124,6 +123,7 @@
 }
 </script>
 
+<script type="application/ld+json" id="ld-paintings">[]</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
 <script>
@@ -164,7 +164,7 @@ const WEBSITE = {
      Die ersten 5 Bilder füllen das Hauptgitter, weitere erscheinen darunter.
   ---------------------------------------------------------------- */
   bilder: [
-    { bild: "barbara-friehs-magick-oil-painting-graz.jpg",                      titel: "Magick",                      technik: "oil on canvas",    jahr: "2024", groesse: "120×80 cm",  farbe: "#d4a020" },
+    { bild: "barbara-friehs-magick-oil-painting-graz.webp",                      titel: "Magick",                      technik: "oil on canvas",    jahr: "2024", groesse: "120×80 cm",  farbe: "#d4a020" },
     { bild: "Fiddle leaf fig.jpg",             titel: "Fiddle Leaf Fig",             technik: "oil on canvas",    jahr: "2026", groesse: "40×40 cm",   farbe: "#4a7040" },
     { bild: "liecken.jpg",                     titel: "Liecken",                     technik: "acrylic on canvas",jahr: "2021", groesse: "50×60 cm",   farbe: "#2060a8" },
     { bild: "room in Milan.jpg",               titel: "Room in Milán",               technik: "acrylic on canvas",jahr: "2024", groesse: "40×50 cm",   farbe: "#c87040" },
@@ -1214,7 +1214,7 @@ function buildPainting(img, i) {
     canvas.className='paint-canvas';
     const picture=document.createElement('img');
     picture.alt=img.titel+' — '+img.technik+', '+img.jahr;
-    picture.loading='eager';
+    picture.loading = (i < 4) ? 'eager' : 'lazy';
     picture.decoding='async';
     // Seitenverhältnis sobald Bild geladen ist setzen (verhindert Masonry-Reflow)
     picture.onload = function() {
@@ -1280,6 +1280,22 @@ fetch('config.json?v='+Date.now())
       obs.observe(item);
     });
 
+
+    // Inject ImageObject structured data for paintings
+    const ldScript = document.getElementById('ld-paintings');
+    const items = bilder.map(b => ({
+      '@type': 'ImageObject',
+      'name': b.titel,
+      'description': b.titel + ' — ' + b.technik + ', ' + b.jahr + (b.groesse ? ', ' + b.groesse : ''),
+      'contentUrl': 'https://barbarafriehs.at/' + b.bild,
+      'creator': {'@type':'Person','name':'Barbara Gluyas-Friehs'},
+      'dateCreated': b.jahr,
+      'artMedium': b.technik,
+      'width': b.groesse ? b.groesse.split('×')[0]+'cm' : undefined,
+      'encodingFormat': 'image/webp'
+    }));
+    const ldData = {'@context':'https://schema.org','@graph': items};
+    ldScript.textContent = JSON.stringify(ldData);
     if (!config) return;
 
     // Titelbild (Hero) aktualisieren falls gesetzt
