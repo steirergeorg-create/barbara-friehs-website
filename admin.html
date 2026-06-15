@@ -179,8 +179,21 @@ const pwInput     = document.getElementById('pw-input');
 const loginBtn    = document.getElementById('login-btn');
 const loginError  = document.getElementById('login-error');
 
+const VALID_PW = 'Babsi';
+
 function tryLogin(pw) {
+  if (pw !== VALID_PW) {
+    loginError.style.display = 'block';
+    return;
+  }
+  loginError.style.display = 'none';
   sessionStorage.setItem(STORAGE_KEY, pw);
+  showDashboard(pw);
+}
+
+function showDashboard(pw) {
+  loginScreen.style.display = 'none';
+  dashboard.style.display = 'block';
   loadStats(pw);
 }
 
@@ -193,7 +206,7 @@ document.getElementById('logout-btn').addEventListener('click', () => {
 
 // Auto-login from session
 const saved = sessionStorage.getItem(STORAGE_KEY);
-if (saved) tryLogin(saved);
+if (saved) showDashboard(saved);
 
 async function loadStats(pw) {
   const loading = document.getElementById('loading');
