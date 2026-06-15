@@ -218,7 +218,7 @@ async function loadStats(pw) {
   statsEl.style.display = 'none';
 
   try {
-    const res = await fetch('/api/stats?pw=' + encodeURIComponent(pw));
+    const res = await fetch('/api/stats?pw=' + encodeURIComponent(pw) + '&t=' + Date.now());
     const json = await res.json();
 
     if (res.status === 401) {

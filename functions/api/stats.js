@@ -68,7 +68,11 @@ export async function onRequest(context) {
   const data = await resp.json();
 
   return new Response(JSON.stringify(data), {
-    headers: { 'Content-Type': 'application/json', ...corsHeaders() },
+    headers: {
+      'Content-Type': 'application/json',
+      'Cache-Control': 'no-store',
+      ...corsHeaders(),
+    },
   });
 }
 
