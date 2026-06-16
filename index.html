@@ -858,9 +858,9 @@ const WEBSITE = {
 <!-- Hero — sofort sichtbar -->
 <section class="hero" aria-label="Introduction" style="padding-top:70px">
   <div class="hero-left">
-    <p class="hero-eyebrow" id="hero-eyebrow"></p>
-    <h1 class="hero-title" id="hero-title"></h1>
-    <p class="hero-desc" id="hero-desc"></p>
+    <p class="hero-eyebrow" id="hero-eyebrow">Painting · Graz, Austria</p>
+    <h1 class="hero-title" id="hero-title">Painting<br><em>with passion</em></h1>
+    <p class="hero-desc" id="hero-desc">Barbara Friehs paints with an energy you can feel. Vibrant colours, expressive brushwork — art that speaks directly to the heart.</p>
     <div class="hero-cta">
       <a href="#galerie" class="btn">Discover works <span class="btn-arrow" aria-hidden="true"></span></a>
     </div>
@@ -878,10 +878,10 @@ const WEBSITE = {
       <div class="section-label">About the artist</div>
     </div>
     <div class="about-text">
-      <h2 id="about-title"></h2>
+      <h2 id="about-title">Colour as inner <em>force</em></h2>
       <div class="divider" aria-hidden="true"></div>
-      <p id="about-p1"></p>
-      <p id="about-p2"></p>
+      <p id="about-p1">Barbara Gluyas-Friehs is an Austrian-Mexican painter based in Graz. Her paintings captivate with bold colours, vivid compositions and a love of patterns and surreal themes.</p>
+      <p id="about-p2">After a Bachelor of Fine Arts at the Academy of Art in San Francisco and a Master's degree in Graz, she works in a shared studio with musicians, potters and media artists.</p>
       <a href="#kontakt" class="btn" style="margin-top:1.5rem">Visit the studio <span class="btn-arrow" aria-hidden="true"></span></a>
     </div>
   </div>
@@ -1127,18 +1127,6 @@ function shade(hex,p){
 /* === Inhalte einfüllen === */
 document.getElementById('nav-name').textContent=WEBSITE.name;
 document.title=WEBSITE.name+' — Painter';
-document.getElementById('hero-eyebrow').textContent='Painting · '+WEBSITE.standort;
-
-// Hero-Titel (nur em-Tag, kein User-Input)
-setHTML('hero-title',esc(WEBSITE.tagline1)+'<br><em>'+esc(WEBSITE.tagline2)+'</em>');
-setText('hero-desc',WEBSITE.beschreibung);
-
-// Über
-const words=WEBSITE.ueber_titel.trim().split(' ');
-const lastWord=words.pop();
-setHTML('about-title',esc(words.join(' '))+' <em>'+esc(lastWord)+'</em>');
-setText('about-p1',WEBSITE.ueber_text1);
-setText('about-p2',WEBSITE.ueber_text2);
 
 // Kontakt-Links
 const cl=document.getElementById('contact-links');
