@@ -126,6 +126,7 @@
 
 <script type="application/ld+json" id="ld-paintings">[]</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
 <script>
 /* ============================================================
@@ -868,7 +869,9 @@ const WEBSITE = {
     </div>
   </div>
   <div class="hero-right" aria-hidden="true">
-    <div class="hero-img-wrap" id="hero-img-wrap"></div>
+    <div class="hero-img-wrap" id="hero-img-wrap">
+      <img id="hero-img" src="barbara-friehs-magick-oil-painting-graz.webp" alt="Magick — oil on canvas, 2024" fetchpriority="high" loading="eager" style="width:100%;height:100%;object-fit:cover">
+    </div>
   </div>
 </section>
 
@@ -1171,22 +1174,13 @@ const sl=document.getElementById('footer-socials');
   sl.appendChild(li);
 });
 
-// Hero-Bild = erstes Galerie-Bild
+// Hero-Bild: statisches img bereits im HTML, JS aktualisiert nur src
 const hw=document.getElementById('hero-img-wrap');
+const heroImg=document.getElementById('hero-img');
 const f=WEBSITE.bilder[0];
-if(f&&f.bild){
-  const img=document.createElement('img');
-  img.src=f.bild;
-  img.alt=f.titel;
-  img.style.cssText='width:100%;height:100%;object-fit:cover';
-  // Eager laden — erstes Bild soll sofort da sein
-  hw.appendChild(img);
-}else if(f){
-  hw.style.background='linear-gradient(135deg,'+f.farbe+' 0%,'+shade(f.farbe,-50)+' 100%)';
-  const sp=document.createElement('span');
-  sp.className='canvas-year';
-  sp.textContent=(f.technik||'oil on canvas')+', '+(f.jahr||'2024');
-  hw.appendChild(sp);
+if(f&&f.bild&&heroImg){
+  heroImg.src=f.bild;
+  heroImg.alt=f.titel;
 }
 
 /* === Galerie bauen mit Lazy Loading === */
@@ -1294,15 +1288,10 @@ fetch('config.json?v='+Date.now())
 
     // Titelbild (Hero) aktualisieren falls gesetzt
     if (config.titelbild) {
-      const hw = document.getElementById('hero-img-wrap');
-      if (hw) {
-        const heroSrc = `https://raw.githubusercontent.com/steirergeorg-create/barbara-friehs-website/main/${encodeURIComponent(config.titelbild)}`;
-        hw.innerHTML = '';
-        const img = document.createElement('img');
-        img.src = heroSrc;
-        img.alt = config.titelbild.replace(/\.[^.]+$/, '');
-        img.style.cssText = 'width:100%;height:100%;object-fit:cover';
-        hw.appendChild(img);
+      const heroImg = document.getElementById('hero-img');
+      if (heroImg) {
+        heroImg.src = `https://raw.githubusercontent.com/steirergeorg-create/barbara-friehs-website/main/${encodeURIComponent(config.titelbild)}`;
+        heroImg.alt = config.titelbild.replace(/\.[^.]+$/, '');
       }
     }
   })
