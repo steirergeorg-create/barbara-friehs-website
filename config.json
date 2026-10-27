@@ -1,6 +1,17 @@
 {
   "bilder": [
     {
+      "bild": "barbara-friehs-camphoto-1804928587ggg-oil-painting-graz.jpg",
+      "titel": "Camphoto 1804928587ggg",
+      "technik": "oil on canvas",
+      "jahr": "2026",
+      "groesse": "45×45 cm",
+      "farbe": "#888888",
+      "sold": false,
+      "width": 0,
+      "height": 0
+    },
+    {
       "bild": "barbara-friehs-galerie-acrylic-painting-graz.jpg",
       "titel": "Galerie",
       "technik": "acrylic on canvas",
