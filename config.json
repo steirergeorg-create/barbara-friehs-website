@@ -1,17 +1,6 @@
 {
   "bilder": [
     {
-      "bild": "barbara-friehs-camphhhh-oil-painting-graz.webp",
-      "titel": "Camphhhh",
-      "technik": "oil on canvas",
-      "jahr": "2026",
-      "groesse": "120×40 cm",
-      "farbe": "#888888",
-      "sold": false,
-      "width": 1920,
-      "height": 2560
-    },
-    {
       "bild": "barbara-friehs-magick-oil-painting-graz.webp",
       "titel": "Magick",
       "technik": "oil on canvas",
